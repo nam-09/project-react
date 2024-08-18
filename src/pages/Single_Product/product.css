@@ -1,0 +1,155 @@
+#product {
+  width: 1240px;
+  height: 1249px;
+  flex-shrink: 0;
+  margin: 40px 63px 9px 63px;
+}
+.container_product {
+  display: flex;
+  justify-content: space-between;
+}
+.imgga {
+  width: 550px;
+  height: 851px;
+  flex-shrink: 0;
+}
+.imgga img {
+  width: 550px;
+  height: 685px;
+  flex-shrink: 0;
+}
+.plain {
+  margin-left: 48px;
+  text-align: left;
+}
+.category h5 {
+  text-align: left;
+}
+.shop_women {
+  color: #888;
+  font-family: Arimo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.shop_women span {
+  display: flex;
+}
+.p {
+  color: black;
+}
+.plain_h3 {
+  color: var(--heading, #1d1d1d);
+
+  /* Section/Title */
+  font-family: Arimo;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 133.333% */
+}
+.price {
+  display: flex;
+}
+.price_1 {
+  color: #818181;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: strikethrough;
+}
+.price_2 {
+  margin-left: 14px;
+  color: var(--Primary, #024e82);
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.classic_h6 {
+  width: 550px;
+  height: 72px;
+  flex-shrink: 0;
+}
+.classic_h6 h6 {
+  color: var(--text, #555);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0px;
+}
+.select {
+  margin-bottom: 36px;
+}
+.category {
+  color: var(--heading, #1d1d1d);
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.incon {
+  text-align: left;
+}
+.css-i4bv87-MuiSvgIcon-root {
+  margin-left: 0px;
+}
+.description {
+  display: flex;
+}
+.description_h4 {
+  color: var(--heading, #1d1d1d);
+  font-family: Arimo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 136px;
+  height: 56px;
+  flex-shrink: 0;
+  border: 0.5px solid rgb(206, 203, 203);
+}
+.reviews_h4 {
+  color: #818181;
+  font-family: Arimo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 136px;
+  height: 56px;
+  flex-shrink: 0;
+  border: 0.5px solid rgb(206, 203, 203);
+}
+.span_1 p {
+  color: var(--text, #555);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 1144px;
+  height: 150px;
+  flex-shrink: 0;
+  text-align: left;
+  margin: 48px;
+}
+.span_1 span {
+  width: 1240px;
+  height: 246px;
+  flex-shrink: 0;
+}
+.span_1{
+    border: 1px solid #c1bfbf;
+    background: #fff;
+}

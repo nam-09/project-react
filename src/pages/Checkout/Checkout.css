@@ -1,0 +1,159 @@
+.container_checkout {
+  margin-top: 40px;
+  margin-left: 63px;
+  width: 1281px;
+  height: 1290px;
+  flex-shrink: 0;
+}
+.Hero span {
+  display: flex;
+  margin-bottom: 35px;
+}
+.Hero {
+  width: 435px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.hero_home {
+  color: #888;
+  font-family: Arimo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.hero_checkout {
+  color: #0f0f0f;
+  font-family: Arimo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.hero_h3 h3 {
+  color: var(--heading, #1d1d1d);
+
+  /* Section/Title */
+  font-family: Arimo;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 133.333% */
+  text-align: left;
+}
+.container_tt {
+  text-align: left;
+}
+.first_name {
+  width: 620px;
+  height: 71px;
+  flex-shrink: 0;
+}
+.street_address {
+  width: 620px;
+  height: 71px;
+  flex-shrink: 0;
+}
+.town_city {
+  width: 620px;
+  height: 71px;
+  flex-shrink: 0;
+}
+.phone {
+  width: 620px;
+  height: 71px;
+  flex-shrink: 0;
+}
+.email_address {
+  width: 620px;
+  height: 71px;
+  flex-shrink: 0;
+}
+.container_tt p {
+  margin-top: 28px;
+}
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 620px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.product_totals {
+  width: 1280px;
+  height: 66.171px;
+  flex-shrink: 0;
+  display: flex;
+  border: 1px solid #ebebeb;
+  background: #fff;
+}
+.product_p1 p {
+  margin-left: 18px;
+  margin-right: 585px;
+}
+.checkout_item {
+  width: 1280px;
+  height: 66.171px;
+  flex-shrink: 0;
+  border: 1px solid #ebebeb;
+  background: #fff;
+  display: flex;
+}
+.checkout_p1 p {
+  margin-right: 510px;
+  margin-left: 32px;
+}
+.subtotal {
+  width: 1280px;
+  height: 66.171px;
+  flex-shrink: 0;
+  border: 1px solid #ebebeb;
+  background: #fff;
+  display: flex;
+}
+.subtotal_p1 {
+  margin-left: 16px;
+  margin-right: 587px;
+}
+.subtotal_1 {
+  width: 1280px;
+  height: 66.171px;
+  flex-shrink: 0;
+  border: 1px solid #ebebeb;
+  background: #fff;
+}
+.subtotal_1 p {
+  margin-left: 662px;
+}
+.cash_on_delivery {
+  width: 1280px;
+  height: 245.383px;
+  flex-shrink: 0;
+  border: 1px solid #ebebeb;
+  background: #fff;
+  margin-top: 44.11px;
+}
+.cash_on {
+  width: 1232px;
+  height: 77.199px;
+  flex-shrink: 0;
+  border: 1px solid #ebebeb;
+  background: #fbfbfb;
+  margin: 34px 24px 135px 24px;
+}
+.cash_on p {
+  text-align: left;
+  margin-left: 16px;
+}
+.cash_button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 100px;
+}
+.your_order {
+  text-align: left;
+  margin-top: 40px;
+}
+.subtotal_h3 b {
+  margin-left: 95px;
+}

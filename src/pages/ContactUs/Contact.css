@@ -1,0 +1,238 @@
+#contact {
+  width: 100%;
+  /* overflow: hidden; */
+}
+.img_28 img {
+  width: 100%;
+  height: 348px;
+  flex-shrink: 0;
+}
+/* .form {
+  width: 1240px;
+  height: 563px;
+  flex-shrink: 0;
+  margin: 149px 63px 110px 63px;
+  display: flex;
+  justify-content: space-between;
+} */
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 269px;
+  flex-shrink: 0;
+  text-align: start;
+  margin-left: 10px;
+}
+.information h5 {
+  text-align: start;
+}
+.information h6 {
+  text-align: start;
+}
+.form-h2 {
+  color: #3a3939;
+
+  /* Section/Title */
+  font-family: Arimo;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 133.333% */
+}
+.form-h4 {
+  /* width: 788px; */
+  height: 25px;
+  flex-shrink: 0;
+  color: var(--text, #555);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.form-h4 h4 {
+  margin-left: 10px;
+}
+.input_name input {
+  width: 400px;
+  height: 58px;
+  flex-shrink: 0;
+  border: 1px solid #ebebeb;
+  background: #fff;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-top: 48px;
+  color: var(--text, #555);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.name input {
+  margin-top: 8px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-top: 48px;
+  color: var(--text, #555);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.email input {
+  margin-top: 8px;
+}
+.input_message {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  color: var(--text, #555);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.input_message input {
+  display: flex;
+  height: 188px;
+  flex-shrink: 0;
+  border: 1px solid #ebebeb;
+  background: #fff;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+.button button {
+  width: 192px;
+  height: 58px;
+}
+.button {
+  display: flex;
+  text-align: start;
+}
+.visit {
+  width: 350px;
+  height: 107px;
+  flex-shrink: 0;
+  margin-bottom: 48px;
+}
+.visit h6 {
+  margin-top: 0px;
+  color: var(--text, #555);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.visit h5 {
+  margin-bottom: 12px;
+  color: var(--heading, #1d1d1d);
+  font-family: Arimo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 200% */
+}
+.gettouch {
+  width: 350px;
+  height: 107px;
+  flex-shrink: 0;
+}
+.gettouch h5 {
+  margin-bottom: 12px;
+  color: var(--heading, #1d1d1d);
+  font-family: Arimo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 200% */
+}
+.gettouch h6 {
+  margin-top: 0px;
+  color: var(--text, #555);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (min-width: 1024px) and (max-width: 1365) {
+  .input_name {
+    display: flex;
+
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1023px) {
+  .grid_Contact {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 63px;
+  }
+  .input_message input {
+    width: 450px;
+    height: 40px;
+  }
+}
+@media (min-width: 376px) and (max-width: 1023px) {
+
+}
+@media (min-width: 375px) {
+  .grid_contai_contact {
+    margin-left: 20px;
+  }
+  .grid_Contact {
+    margin-top: 50px;
+  }
+  .input_name input {
+    width: 310px;
+  }
+} 
+@media (min-width: 1536px) {
+  .input_name {
+    display: flex;
+
+  }
+ 
+  .input_message input{
+    width: 820px;
+    height: 188px;  
+    flex-shrink: 0;
+  }
+  .information{
+    margin-left: 500px;
+  }
+  .input_name input{
+    width: 400px;
+  }
+}
+@media (min-width:1535px) {
+  .input_name {
+    display: flex;
+    
+  }
+ 
+  .input_message input{
+    width: 820px;
+    height: 188px;  
+    flex-shrink: 0;
+  }
+  .information{
+    margin-left: 200px;
+  }
+  .input_name input{
+    width: 400px;
+  }
+  
+}

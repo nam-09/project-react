@@ -1,0 +1,42 @@
+#images_producthome {
+  width: 295px;
+  height: 342px;
+  flex-shrink: 0;
+}
+.title {
+  color: var(--heading, #1d1d1d);
+  text-align: center;
+  font-family: Baloo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: center;
+}
+.price-1 {
+  color: var(--Primary, #024e82);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+}
+.product_images {
+  width: 295px;
+  height: 412px;
+  flex-shrink: 0;
+  margin: 48px 0 0 20px;
+}
+figure {
+  display: contents;
+}
+.css-cnd76u-MuiPaper-root{
+  background-color: initial !important;
+}
