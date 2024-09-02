@@ -15,7 +15,7 @@ import img27 from "./imagesAbout/img_27.svg";
 
 export default function About() {
   return (
-    <div>
+    <div className="container-about">
       <div id="about">
         <div className="images">
           <img src={img17} alt="ảnh" />

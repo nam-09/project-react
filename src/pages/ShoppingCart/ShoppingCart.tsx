@@ -50,7 +50,7 @@ export default function ShoppingCart() {
     color: theme.palette.text.secondary,
   }));
   return (
-    <div>
+    <div className="shoppingcart-container">
       <div>
         {isCartOpen && (
           <div id="ShoppingCart">
